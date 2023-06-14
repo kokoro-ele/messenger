@@ -1,3 +1,10 @@
+/*
+ * @Author: kokoro
+ * @Date: 2023-05-31 13:17:30
+ * @LastEditors: kokoro
+ * @LastEditTime: 2023-05-31 13:29:10
+ * @Description: 请填写简介
+ */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,13 +13,11 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
+
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')({
+      strategy: 'class'
+    }),
+  ],
 }

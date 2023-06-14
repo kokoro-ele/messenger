@@ -1,0 +1,110 @@
+Date : 2023-06-13 21:54:05
+Directory : ./app
+Total : 59 files,  3084 codes, 264 comments, 284 blanks, all 3632 lines, 7.89% comment rate
+
+Languages
++------------------+------------+------------+------------+------------+------------+--------------+
+| language         | files      | code       | comment    | blank      | total      | comment rate |
++------------------+------------+------------+------------+------------+------------+--------------+
+| TypeScript React |         40 |      2,497 |        193 |        178 |      2,868 |        7.17% |
+| TypeScript       |         18 |        580 |         71 |        104 |        755 |       10.91% |
+| CSS              |          1 |          7 |          0 |          2 |          9 |        0.00% |
++------------------+------------+------------+------------+------------+------------+--------------+
+
+Directories
++-------------------------------------------------------------+------------+------------+------------+------------+------------+--------------+
+| path                                                        | files      | code       | comment    | blank      | total      | comment rate |
++-------------------------------------------------------------+------------+------------+------------+------------+------------+--------------+
+| .                                                           |         59 |      3,084 |        264 |        284 |      3,632 |        7.89% |
+| conversations                                               |         15 |      1,186 |         50 |         75 |      1,311 |        4.05% |
+| components                                                  |         14 |        849 |         77 |         62 |        988 |        8.32% |
+| conversations\[conversationId]                              |          9 |        803 |         28 |         48 |        879 |        3.37% |
+| conversations\[conversationId]\components                   |          8 |        771 |         28 |         43 |        842 |        3.50% |
+| components\sidebar                                          |          6 |        390 |         35 |         31 |        456 |        8.24% |
+| api                                                         |          7 |        368 |          8 |         50 |        426 |        2.13% |
+| conversations\components                                    |          3 |        342 |         14 |         19 |        375 |        3.93% |
+| (site)                                                      |          3 |        260 |         22 |         16 |        298 |        7.80% |
+| (site)\components                                           |          2 |        213 |         15 |         14 |        242 |        6.58% |
+| api\conversations                                           |          3 |        184 |          1 |         29 |        214 |        0.54% |
+| users                                                       |          5 |        163 |         37 |         13 |        213 |       18.50% |
+| actions                                                     |          6 |        133 |         35 |         35 |        203 |       20.83% |
+| users\components                                            |          2 |        123 |         14 |          7 |        144 |       10.22% |
+| components\input                                            |          2 |        104 |          7 |          7 |        118 |        6.31% |
+| api\conversations\[conversationId]                          |          2 |         99 |          1 |         15 |        115 |        1.00% |
+| api\messages                                                |          1 |         69 |          0 |          5 |         74 |        0.00% |
+| hooks                                                       |          3 |         63 |         21 |         13 |         97 |       25.00% |
+| api\conversations\[conversationId]\seen                     |          1 |         60 |          1 |         10 |         71 |        1.64% |
+| api\auth\[...nextauth]                                      |          1 |         53 |          7 |          6 |         66 |       11.67% |
+| api\auth                                                    |          1 |         53 |          7 |          6 |         66 |       11.67% |
+| api\register                                                |          1 |         31 |          0 |          6 |         37 |        0.00% |
+| api\settings                                                |          1 |         31 |          0 |          4 |         35 |        0.00% |
+| context                                                     |          2 |         14 |          0 |          8 |         22 |        0.00% |
+| types                                                       |          1 |          9 |          7 |          3 |         19 |       43.75% |
+| libs                                                        |          1 |          7 |          0 |          3 |         10 |        0.00% |
++-------------------------------------------------------------+------------+------------+------------+------------+------------+--------------+
+
+Files
++-------------------------------------------------------------+------------------+------------+------------+------------+------------+--------------+
+| filename                                                    | language         | code       | comment    | blank      | total      | comment rate |
++-------------------------------------------------------------+------------------+------------+------------+------------+------------+--------------+
+| (site)\components\AuthForm.tsx                              | TypeScript React |        181 |          8 |         11 |        200 |        4.23% |
+| (site)\components\AuthSocialButton.tsx                      | TypeScript React |         32 |          7 |          3 |         42 |       17.95% |
+| (site)\page.tsx                                             | TypeScript React |         47 |          7 |          2 |         56 |       12.96% |
+| actions\getConversationById.ts                              | TypeScript       |         25 |          7 |          8 |         40 |       21.88% |
+| actions\getConversations.ts                                 | TypeScript       |         33 |          7 |          6 |         46 |       17.50% |
+| actions\getCurrentUser.ts                                   | TypeScript       |         23 |          7 |          8 |         38 |       23.33% |
+| actions\getMessages.ts                                      | TypeScript       |         23 |          7 |          5 |         35 |       23.33% |
+| actions\getSession.ts                                       | TypeScript       |          5 |          0 |          3 |          8 |        0.00% |
+| actions\getUsers.ts                                         | TypeScript       |         24 |          7 |          5 |         36 |       22.58% |
+| api\auth\[...nextauth]\route.ts                             | TypeScript       |         53 |          7 |          6 |         66 |       11.67% |
+| api\conversations\[conversationId]\route.ts                 | TypeScript       |         39 |          0 |          5 |         44 |        0.00% |
+| api\conversations\[conversationId]\seen\route.ts            | TypeScript       |         60 |          1 |         10 |         71 |        1.64% |
+| api\conversations\route.ts                                  | TypeScript       |         85 |          0 |         14 |         99 |        0.00% |
+| api\messages\route.ts                                       | TypeScript       |         69 |          0 |          5 |         74 |        0.00% |
+| api\register\route.ts                                       | TypeScript       |         31 |          0 |          6 |         37 |        0.00% |
+| api\settings\route.ts                                       | TypeScript       |         31 |          0 |          4 |         35 |        0.00% |
+| components\Avatar.tsx                                       | TypeScript React |         44 |          7 |          2 |         53 |       13.73% |
+| components\AvatarGroup.tsx                                  | TypeScript React |         45 |          7 |          5 |         57 |       13.46% |
+| components\Button.tsx                                       | TypeScript React |         50 |          7 |          5 |         62 |       12.28% |
+| components\EmptyState.tsx                                   | TypeScript React |         38 |          7 |          3 |         48 |       15.56% |
+| components\LoadingModal.tsx                                 | TypeScript React |         55 |          0 |          5 |         60 |        0.00% |
+| components\Modal.tsx                                        | TypeScript React |        123 |          7 |          4 |        134 |        5.38% |
+| components\input\Input.tsx                                  | TypeScript React |         56 |          7 |          5 |         68 |       11.11% |
+| components\input\Select.tsx                                 | TypeScript React |         48 |          0 |          2 |         50 |        0.00% |
+| components\sidebar\DesktopItem.tsx                          | TypeScript React |         50 |          7 |          5 |         62 |       12.28% |
+| components\sidebar\DesktopSidebar.tsx                       | TypeScript React |         92 |          7 |          4 |        103 |        7.07% |
+| components\sidebar\MobileFooter.tsx                         | TypeScript React |         39 |          0 |          4 |         43 |        0.00% |
+| components\sidebar\MobileItem.tsx                           | TypeScript React |         48 |          7 |          5 |         60 |       12.73% |
+| components\sidebar\SettingsModal.tsx                        | TypeScript React |        147 |          7 |          9 |        163 |        4.55% |
+| components\sidebar\Sidebar.tsx                              | TypeScript React |         14 |          7 |          4 |         25 |       33.33% |
+| context\AuthContext.tsx                                     | TypeScript React |          8 |          0 |          4 |         12 |        0.00% |
+| context\ToasterContext.tsx                                  | TypeScript React |          6 |          0 |          4 |         10 |        0.00% |
+| conversations\[conversationId]\components\Body.tsx          | TypeScript React |         30 |          7 |          3 |         40 |       18.92% |
+| conversations\[conversationId]\components\ConfirmModal.tsx  | TypeScript React |         95 |          0 |          3 |         98 |        0.00% |
+| conversations\[conversationId]\components\Form.tsx          | TypeScript React |         89 |          0 |          5 |         94 |        0.00% |
+| conversations\[conversationId]\components\Header.tsx        | TypeScript React |         95 |          7 |          8 |        110 |        6.86% |
+| conversations\[conversationId]\components\ImageModal.tsx    | TypeScript React |         22 |          0 |          4 |         26 |        0.00% |
+| conversations\[conversationId]\components\MessageBox.tsx    | TypeScript React |         81 |          7 |         10 |         98 |        7.95% |
+| conversations\[conversationId]\components\MessageInput.tsx  | TypeScript React |         42 |          7 |          3 |         52 |       14.29% |
+| conversations\[conversationId]\components\ProfileDrawer.tsx | TypeScript React |        317 |          0 |          7 |        324 |        0.00% |
+| conversations\[conversationId]\page.tsx                     | TypeScript React |         32 |          0 |          5 |         37 |        0.00% |
+| conversations\components\ConversationBox.tsx                | TypeScript React |        122 |          7 |         11 |        140 |        5.43% |
+| conversations\components\ConversationList.tsx               | TypeScript React |         86 |          7 |          3 |         96 |        7.53% |
+| conversations\components\GroupChatModal.tsx                 | TypeScript React |        134 |          0 |          5 |        139 |        0.00% |
+| conversations\layout.tsx                                    | TypeScript React |         21 |          8 |          2 |         31 |       27.59% |
+| conversations\loading.tsx                                   | TypeScript React |          5 |          0 |          2 |          7 |        0.00% |
+| conversations\page.tsx                                      | TypeScript React |         15 |          0 |          4 |         19 |        0.00% |
+| globals.css                                                 | CSS              |          7 |          0 |          2 |          9 |        0.00% |
+| hooks\useConversation.ts                                    | TypeScript       |         15 |          7 |          6 |         28 |       31.82% |
+| hooks\useOtherUser.ts                                       | TypeScript       |         16 |          7 |          2 |         25 |       30.43% |
+| hooks\useRoutes.ts                                          | TypeScript       |         32 |          7 |          5 |         44 |       17.95% |
+| layout.tsx                                                  | TypeScript React |         25 |          7 |          4 |         36 |       21.88% |
+| libs\prismadb.ts                                            | TypeScript       |          7 |          0 |          3 |         10 |        0.00% |
+| types\index.ts                                              | TypeScript       |          9 |          7 |          3 |         19 |       43.75% |
+| users\components\UserBox.tsx                                | TypeScript React |         72 |          7 |          4 |         83 |        8.86% |
+| users\components\UserList.tsx                               | TypeScript React |         51 |          7 |          3 |         61 |       12.07% |
+| users\layout.tsx                                            | TypeScript React |         18 |          8 |          2 |         28 |       30.77% |
+| users\loading.tsx                                           | TypeScript React |          5 |          7 |          2 |         14 |       58.33% |
+| users\page.tsx                                              | TypeScript React |         17 |          8 |          2 |         27 |       32.00% |
+| Total                                                       |                  |      3,084 |        264 |        284 |      3,632 |        7.89% |
++-------------------------------------------------------------+------------------+------------+------------+------------+------------+--------------+
